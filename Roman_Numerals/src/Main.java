@@ -3,7 +3,7 @@ public class Main {
 	static int[] romanEquivs = {1,5,10,50,100,500,1000};	
 	public static void main(String[] args) {
 	}
-	static public int romToDec(String romanInput) {
+	static public int romToDec(String romanInput) { #Translate Roman Numerals into Decimal
 		int decimalOutput = 0;
 		int lastEquiv = 0;
 		romanInput=romanInput.toUpperCase();
@@ -23,7 +23,7 @@ public class Main {
 		}
 		return decimalOutput;
 	}
-	static public String decToRom(int decimalInput) {
+	static public String decToRom(int decimalInput) { #Translate Decimal into Roman Numerals
 		String romanOutput="";
 		return romanOutput;
 	}
